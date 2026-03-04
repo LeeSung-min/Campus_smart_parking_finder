@@ -131,6 +131,7 @@ def main():
     
     #chose pool size of 4 since the tests given in the assignment were small amount of parallel client workers 1/4/8/16, so having a smaller
     #pool size, we could check for the back pressure
+    #--edit changed size to 16, as it was too inefficient
     backlog = int(config.get("backlog"))
     pool = int(config.get("pool_size"))
     queue_limit = int(config.get("queue_limit"))
