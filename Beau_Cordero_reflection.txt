@@ -1,0 +1,6 @@
+I did the RPC framework, client and async codes.
+which for my part of the project was basically allowing the communication between the server and client.
+The bug i fixed was the concurrent "reserve()" calls being overbooked.
+I fixed this by implementing "threading.lock" and serves to check the capacity
+and updates are thread-safe. The design change i made was shifting from a
+multiplexxing RPC port to a dedicated TCP for the Pub/Sub system.
