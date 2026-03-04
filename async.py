@@ -8,12 +8,12 @@ class ParkingSensor(RPCBase):
         self.port = port
 
     def send_update(self, lot_id, delta):
-        """sends non-blocking occupency update (+1 or -1)"""
+        """Sends a non-blocking occupancy update (+1 or -1)."""
         payload = {
-            "type": "UPDATE"
-            "lostId": lot_id,
+            "type": "UPDATE",
+            "lotId": lot_id,
             "delta": delta,
-        "timestamp": time.time()
+            "timestamp": time.time()
         }
 
         try:
