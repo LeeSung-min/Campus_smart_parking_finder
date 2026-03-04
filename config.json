@@ -3,7 +3,7 @@
     "server_port" : 5000,
     "ttl" : 300,
     "backlog" : 40,
-    "pool_size" : 4,
+    "pool_size" : 16,
     "queue_limit" : 100,
     "lots" : [
         { "id": "test1", "capacity": 10},
@@ -49,3 +49,4 @@
 
     ]
 }
+
