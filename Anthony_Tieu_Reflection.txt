@@ -1,0 +1,10 @@
+My contribution to the assignment was the publish/subscribe system so that 
+the clients could receive asynchronous notifications when parking spots
+become free to their subscribed lot id. This included the pub/sub events,
+ensuring the notifications are non-blocking, having a separate TCP
+connection for each event, and dealing with slow subscribers and 
+back-pressure. A bug that I encountered was the race conditions
+that occured when clients subscribe or unsubscribe when events
+were being published. Changing the design to include RLock allowed
+for the race conditions to be dealt with and avoiding the subsequent
+data corruption.

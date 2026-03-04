@@ -67,13 +67,3 @@ Start Subscriber: python subscriber.py
 Run sensor: python sensor.py
 
 Run the client: python client.py
-
-
-### Next Step for you:
-I've created an empty **requirements.txt** file below. You should save this in your project folder alongside the README to ensure you meet the "reproducible dependency specification" requirement.
-
-**requirements.txt**
-```text
-# This project uses only the Python Standard Library.
-# No external dependencies required.
-
