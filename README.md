@@ -62,6 +62,10 @@ The client-side stub enforces a 5.0 second timeout for all network operations. I
 ## 4. Execution
 Start the server: python server.py
 
+Start Subscriber: python subscriber.py
+
+Run sensor: python sensor.py
+
 Run the client: python client.py
 
 
