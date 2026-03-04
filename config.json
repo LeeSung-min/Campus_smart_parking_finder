@@ -1,0 +1,47 @@
+{
+    "server_port" : 5000,
+    "ttl" : 300,
+    "lots" : [
+        { "id": "test1", "capacity": 10},
+        { "id": "test2", "capacity": 20},
+
+        { "id": "Pyramid_pstruct",    "capacity": 1300 },
+        { "id": "PaloVerdeN_pstruct", "capacity": 1280},
+        { "id": "PaloVerdeS_pstruct", "capacity": 1300},
+        
+        { "id": "G1",  "capacity": 120 },
+        { "id": "G2",  "capacity": 200 },
+        { "id": "G3",  "capacity": 220 },
+        { "id": "G4",  "capacity": 250 },
+        { "id": "G5",  "capacity": 300 },
+        { "id": "G6",  "capacity": 220 },
+        { "id": "G7",  "capacity": 200 },
+        { "id": "G8",  "capacity": 180 },
+        { "id": "G9",  "capacity": 150 },
+        { "id": "G10", "capacity": 220 },
+        { "id": "G11", "capacity": 350 },
+        { "id": "G12", "capacity": 200 },
+        { "id": "G13", "capacity": 180 },
+        { "id": "G14", "capacity": 180 },
+
+        { "id": "E1",  "capacity": 150 },
+        { "id": "E2",  "capacity": 140 },
+        { "id": "E3",  "capacity": 200 },
+        { "id": "E4",  "capacity": 220 },
+        { "id": "E5",  "capacity": 130 },
+        { "id": "E6",  "capacity": 120 },
+        { "id": "E7",  "capacity": 120 },
+        { "id": "E8",  "capacity": 110 },
+        { "id": "E9",  "capacity": 110 },
+        { "id": "E10", "capacity": 100 },
+        { "id": "E11", "capacity": 120 },
+
+        { "id": "R1", "capacity": 220 },
+        { "id": "R2", "capacity": 240 },
+        { "id": "Beachside", "capacity": 500 },
+
+        { "id": "S1", "capacity": 80 },
+        { "id": "ParksideCommons", "capacity": 250 }
+
+    ]
+}
