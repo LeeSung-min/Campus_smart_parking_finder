@@ -1,0 +1,7 @@
+I worked on the architectural diagram for the report and I created the parking_data.py as well as the parking_server.py and config.json. I was responsible for the core logic 
+of parking methods as well as the multithreaded server and communication protocol from the client. I implemented the methods getLots(), getAvailability(), reserve(),
+and cancel(), as well as the ttl of 5 minutes as stated in the instruction for reservations. I used a thread pool architecture to put workers in a bounded queue unlike
+a thread per connection which continously creates new threads which causes performance drops in larger systems. A bug that I had fixed was not removing reservations properly
+from the dictionary, so I had created a list collecting the plates before deleting which solved the runtime error. I also had one stupid bug that kept giving me errors because 
+I had a typo in the json file. One design change that I implemented was increasing the number of maximum in the thread pool which helped with peformance when I was testing
+with parallel clients.
